@@ -1,0 +1,81 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Main content */
+main {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+button#actionButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#actionButton:hover {
+    background-color: #0b7dda;
+}
+
+/* Instructions section */
+#instructions {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#instructions h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+#instructions h3 {
+    color: #2196F3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
